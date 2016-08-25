@@ -9,8 +9,8 @@ res.send("hello");
 
 
 var server   = http.createServer(app);
-server.listen(1339, function() {
-  console.log("Node server running on http://localhost:1339");
+server.listen(1338, function() {
+  console.log("Node server running on http://localhost:1338");
 });
 
 module.exports = app;
